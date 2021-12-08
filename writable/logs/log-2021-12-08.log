@@ -1,0 +1,134 @@
+CRITICAL - 2021-12-08 00:47:28 --> Call to undefined method App\Models\Siswa_model::deleteSiswa
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(59): CodeIgniter\Model->__call('deleteSiswa', Array)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->delete('5')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-08 01:10:43 --> Undefined variable $getKaryawan
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Views\siswa_view.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Common.php(1097): CodeIgniter\View\View->render('siswa_view', Array, true)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(15): view('siswa_view', Array)
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-08 01:18:13 --> Undefined variable $getSiswa
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Views\siswa_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Common.php(1097): CodeIgniter\View\View->render('siswa_view', Array, true)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(15): view('siswa_view', Array)
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-08 01:20:45 --> Undefined variable $title
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Views\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Common.php(1097): CodeIgniter\View\View->render('header', Array, true)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(13): view('header', Array)
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-08 02:17:27 --> Undefined variable $row
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Views\siswa_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Common.php(1097): CodeIgniter\View\View->render('siswa_view', Array, true)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(12): view('siswa_view', Array)
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-08 02:17:44 --> Undefined variable $row
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Views\siswa_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Common.php(1097): CodeIgniter\View\View->render('siswa_view', Array, true)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(12): view('siswa_view', Array)
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-12-08 07:20:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-08 07:20:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Models\Siswa_model.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(11): App\Models\Siswa_model->getSiswa()
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->index()
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-12-08 09:45:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-08 09:45:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Models\Siswa_model.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(11): App\Models\Siswa_model->getSiswa()
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->index()
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-12-08 09:46:32 --> Undefined variable $product
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Views\edit_siswa_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Common.php(1097): CodeIgniter\View\View->render('edit_siswa_view', Array, true)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(38): view('edit_siswa_view', Array)
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->edit('4')
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-08 09:49:18 --> Undefined variable $siswa
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Views\edit_siswa_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Common.php(1097): CodeIgniter\View\View->render('edit_siswa_view', Array, true)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(38): view('edit_siswa_view', Array)
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->edit('4')
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-08 09:50:06 --> Undefined variable $row
+#0 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Views\edit_siswa_view.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Common.php(1097): CodeIgniter\View\View->render('edit_siswa_view', Array, true)
+#4 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\app\Controllers\Siswa.php(38): view('edit_siswa_view', Array)
+#5 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(824): App\Controllers\Siswa->edit('4')
+#6 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugas_2-UAS-1915016123-ZulfikarRM_UNMUL\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
